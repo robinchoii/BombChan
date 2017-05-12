@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: Montserrat;
+  background-color: #e6e4e4;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+.image {
+  margin: 0 auto;
+  display: block;
+}
+
+button {
+  margin: 0 auto;
+  position: relative;
+}
+
+.banchan {
+  width: 100%;
+  opacity: .85;
+}
+
+.header h1 {
+  font-family: Montserrat;
+  font-weight: 900;
+}
+.header h4 {
+  font-family: Montserrat;
+}
+.header h6 {
+  font-family: Montserrat;
+}

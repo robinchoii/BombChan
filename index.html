@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BombChan</title>
+  <link type='text/css' rel='stylesheet' href='style.css'>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src='javascript.js'></script>
+</head>
+<body>
+  <div class='container'>
+    <div class='header'>
+      <img class='img-responsive banchan' src="banchan.jpg">
+      <h1 class='text-center'>BombChan</h1>
+      <h4 class='text-center'>Korean side dish delivery</h4>
+      <h6 class='text-center'>Coming Summer 2016</h6>
+      <form class='center'>
+        <div class='form-group'>
+          <input class='form-control' placeholder="first" id='fname' name='first'></input>
+        </div>
+        <div class='form-group'>
+          <input class='form-control' placeholder='last' id='lname' name='last'></input>
+        </div>
+        <div class='form-group'>
+          <input class='form-control' placeholder="email" id='email' name='email'></input>
+        </div>
+        <button type='button' onclick="signUp()" class='text-center'>Sign up for beta</button>
+      </form>
+    </div>
+  </div>
+  <script>
+    function signUp() {
+      var first, last, email;
+
+      first = document.getElementById('fname').value;
+      last = document.getElementById('lname').value;
+      email = document.getElementById('email').value;
+    }
+  </script>
+</body>
+</html>
